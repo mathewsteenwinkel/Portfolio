@@ -1,6 +1,9 @@
 import React from "react";
 import "./Hero_image.scss"
 import TechStack from "./TechStack";
+import About from "./About"
+import Blob from "./blob"
+import Projects from "./Projects";
 
 
 export default function HeroImage() {
@@ -18,7 +21,12 @@ export default function HeroImage() {
           <img src={require("../images/Forest.png")} className="forest" />
         </div>
         </header>
-        <TechStack />
+        <TechStack /> 
+        <About />
+        <Blob />
+        <div >
+        <Projects />
+        </div>
       </div>
      
     </>
