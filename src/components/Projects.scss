@@ -1,10 +1,77 @@
+$font: 'Julius Sans One', sans-serif;
+
+*{
+  z-index: 5;
+}
+
 .projects{
-  margin-top: 100px;
+  z-index: 4;
+  margin-top: 0px;
   font-family: 'Geologica', sans-serif;  color: white ;
   display: flex;
   justify-content: center;
   font-size: 100px;
-  background-image: linear-gradient(90deg, #59389c, #f90000);
+  background-image: linear-gradient(90deg, #ffffff, #0400ff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  height: 100px;
+  margin-bottom: 125px;
+}
+
+.sections{
+  z-index: 10;
+  font-family: 'Geologica', sans-serif;  color: white ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height:800px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.sectionOne{
+  border-radius: 15px;
+  width: 80%;
+  font-family: $font;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,0.4598433123249299) 0%, rgba(148,187,233,0.4682466736694678) 100%);
+  transition: all .2s ease-in-out;
+  margin-bottom: 50px;    
+
+
+
+  .Ttl{
+    margin-left: 20px;
+  }
+
+  .projectTtl{
+    font-size: 30px;
+    margin-left: 20px;
+
+  }
+
+  .ProjectBD{
+    color: #ffffff;
+    font-family: 'Geologica', sans-serif;  color: white ;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+}
+
+.sectionOne:hover{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,0.55) 0%, rgba(148,187,233,0.55) 100%);
+  transform: scale(1.009); 
+  filter: drop-shadow(10px 10px 25px rgb(238,174,202));
+}
+
+
+.portfolio{
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+
 }

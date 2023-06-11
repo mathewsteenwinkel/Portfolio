@@ -1,19 +1,21 @@
 
 .name{
   font-family: 'Julius Sans One', sans-serif;
-    font-size: 32px;
+  font-size: 32px;
   display: flex;
-justify-content: space-between;
-padding-left: 49px;
-padding-top: 15px;
-padding-right: 49px;
-
+  justify-content: space-between;
+  padding-left: 49px;
+  padding-top: 15px;
+  padding-right: 49px;
+  color: white;
 }
 
 .nav{
   display: flex;
   justify-content: space-between;
   width: 500px;
+  text-decoration: none;
+  color: white;
 }
 
 .horizontal-line {
@@ -29,3 +31,5 @@ padding-right: 49px;
   display: flex;
   justify-content: center;
 }
+
+html { scroll-behavior: smooth;}

@@ -1,0 +1,97 @@
+.contactTtl{
+  background-color: #CA4246;
+  background-image: linear-gradient(
+    65deg,
+    #CA4246 16.666%,
+    #E16541 16.666%,
+    #E16541 33.333%,
+    #F18F43 33.333%,
+    #F18F43 50%,
+    #8B9862 50%,
+    #8B9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #A7489B 83.333%
+  );
+  background-size: 80%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 8em;
+  text-align: center;
+ 
+}
+
+form{
+  width: 75%;
+}
+
+.contactForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputGroup{
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #FFFF;
+  color: white;
+  background: transparent;
+  font-size: 20px;
+}
+
+input:focus~label,
+input:valid~label,
+input:focus~textarea,
+input:valid~textarea{
+  top: -35px;
+  font-size: 19px;
+}
+
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button{
+  width: 100%;
+  padding: 10px 0px;
+  color: #FFFF;
+  outline: none;
+  background: transparent;
+  border: 1px solid #FFFF;
+  cursor: pointer;
+}
+
+button:hover{
+  color: black;
+  background-color: white;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .inputGroup{
+  flex-basis: 48%;
+}
