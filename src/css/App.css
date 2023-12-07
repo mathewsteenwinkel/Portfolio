@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(12, 36, 49, 1);
+}
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+.middle {
+  display: flex;
+  justify-content: center;
+  height: 6795px;
+  z-index: 2;
+
+}
+
+.body {
+  width: 1512px;
+  justify-content: center;
+
+}
+
+.ellipse1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 817px;
+  width: 703px;
+  z-index: -1;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  height: 1047px;
+  width: 569px;
+  z-index: -1;
+}

@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Ellipse from './assets/Ellipse 1.png'
+import Ellipse2 from './assets/Ellipse 2.png'
+import About from './About';
+import Toolbox from './Toolbox';
+import Projects from './Projects';
 
-function App() {
+import './css/App.css'
+import Contact from './Contact';
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className='middle'>
+      <img src={Ellipse} alt='Ellipse' className='ellipse1' />
+      <div className='body'>
+        <Navbar className='body' />
+        <div className='hero_section'>
+          <Hero />
+        </div>
+        <About/>
+      <Toolbox />
+      <Projects />
+      <Contact />
+      </div>
+      <img src={Ellipse2} alt='Ellipse2' className='ellipse2' />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

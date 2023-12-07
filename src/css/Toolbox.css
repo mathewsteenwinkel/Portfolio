@@ -1,0 +1,70 @@
+.toolBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.title{
+color: #E1DAD2;
+font-family: Roboto;
+font-size: 122px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px; /* 113.744% */
+text-transform: uppercase;
+margin-top: 300px;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.language1{
+padding-top: 75px;
+width: 445px;
+}
+.language2{
+padding-top: 75px;
+width: 445px;
+margin-left: 60px;
+}
+
+
+p{
+  padding: 0px;
+  color: #A8A8A8;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+} 
+
+
+.end{
+  color:#E1DAD2;
+font-family: Roboto;
+font-size: 105.5px;
+font-style: normal;
+font-weight: 400;
+line-height: 120px; /* 113.744% */
+letter-spacing: -1.055px;
+text-transform: uppercase;
+
+}
+
+.element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.element.animate-slide-in {
+  opacity: 1;
+  transform: translateY(0);
+}
