@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34e48785.css",
+    "main.js": "/static/js/main.4a2d8331.js",
+    "static/media/IMG_0385.jpeg": "/static/media/IMG_0385.671c9bd68e377e789edc.jpeg",
+    "static/media/Ellipse 2.png": "/static/media/Ellipse 2.36f17a547e3d71a44a39.png",
+    "static/media/Ellipse 1.png": "/static/media/Ellipse 1.4012b5343a94f8cdc6e7.png",
+    "static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.png": "/static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.428ab3ab12c4689c3e85.png",
+    "static/media/GardenPage.png": "/static/media/GardenPage.63120b58fc384dafbd98.png",
+    "index.html": "/index.html",
+    "main.34e48785.css.map": "/static/css/main.34e48785.css.map",
+    "main.4a2d8331.js.map": "/static/js/main.4a2d8331.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e48785.css",
+    "static/js/main.4a2d8331.js"
+  ]
+}
