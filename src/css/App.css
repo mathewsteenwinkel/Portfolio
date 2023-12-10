@@ -58,7 +58,7 @@ body {
   .ellipse1 {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: -20px;
     height: 300px;
     width: 300px;
     z-index: -1;
