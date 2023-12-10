@@ -63,3 +63,73 @@
   height:75px;
   
 }
+
+
+@media only screen and (max-width: 414px) {
+
+  .about_me {
+    margin-top: 0px;
+  }
+  
+  .title {
+    color: #E1DAD2;
+    font-family: 'Cousine', monospace;
+    font-size: 35px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    margin-top: 0px;
+  
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .photo {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    -webkit-transition: background 1s, border-radius 1s;
+    transition: background 1s, border-radius 1s;
+   margin-bottom: 50px;
+  }
+  
+  .body_text {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #E1DAD2;
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    /* 140% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    margin:0px;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .icon{
+    width: 75px;
+    height:75px;
+    
+  }
+
+
+}

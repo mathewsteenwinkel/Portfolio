@@ -42,10 +42,12 @@ export default function Contact() {
               <textarea name="message" rows={8} />
               <label for='message'>your Message</label>
             </div>
+            <div className='submit'>
             <button type="submit" value="Send">SUBMIT</button>
+            </div>
           </form>
         </div>
-        <div className='info2'>
+        <div className='info3'>
           <div className='details'>
             <div className='headers'>contact details</div>
             <a href='mailto:mathewsteenwinkel@gmail.com'>

@@ -16,7 +16,7 @@ const Projects = () => {
               <a className='proj_name'>petal profits</a>
               <div className='proj'>final project</div>
             </div>
-            <div className='info'>
+            <div className='info2'>
               <div className='year'>2023</div>
               <div className='stack'>PERN</div>
               <div className='stack2'>Full Stack</div>
@@ -32,7 +32,7 @@ const Projects = () => {
               <a className='proj_name'>scheduler</a>
               <div className='proj'>react project</div>
             </div>
-            <div className='info'>
+            <div className='info2'>
               <div className='year'>2023</div>
               <div className='stack'>react</div>
               <div className='stack2'>front end</div>

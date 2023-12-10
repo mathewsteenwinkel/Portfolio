@@ -10,9 +10,9 @@ import './css/Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <h1>
+      <div>
         <img src={logo} alt='logo' className='logo' />
-      </h1>
+      </div>
       <div className='nav__bar'>
 
         <Link className='nav' to="about_me" spy={true} smooth={true} duration={0}> about</Link>

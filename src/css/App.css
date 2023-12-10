@@ -8,7 +8,7 @@ body {
 .middle {
   display: flex;
   justify-content: center;
-  height: 6795px;
+  height: 695px;
   z-index: 2;
 
 }
@@ -35,4 +35,41 @@ body {
   height: 1047px;
   width: 569px;
   z-index: -1;
+}
+
+
+@media only screen and (max-width: 414px) {
+ 
+  .middle {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+   
+    z-index: 2;
+    width: 414px;
+  }
+  
+  .body {
+    width: 414px;
+    justify-content: center;
+  
+  }
+  
+  .ellipse1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+  }
+  
+  .ellipse2 {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    height: 50%;
+    width: 50%;
+    z-index: -1;
+  }
 }

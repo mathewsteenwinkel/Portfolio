@@ -12,9 +12,9 @@ const About = () => {
     <>
     <a id='about_me'>
       <div className='about_me' >
-        <h1 className='title'>
+        <div className='title'>
           <RandomTextAnimation />
-        </h1>
+        </div>
         <div className='info'>
           <img src={me} className='photo' />
           <div>
