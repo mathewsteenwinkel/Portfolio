@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.39a1999f.css",
-    "main.js": "/Portfolio/static/js/main.6e124897.js",
+    "main.css": "/Portfolio/static/css/main.0e49bb9e.css",
+    "main.js": "/Portfolio/static/js/main.1077738c.js",
     "static/media/IMG_0385.jpeg": "/Portfolio/static/media/IMG_0385.671c9bd68e377e789edc.jpeg",
     "static/media/Ellipse 2.png": "/Portfolio/static/media/Ellipse 2.36f17a547e3d71a44a39.png",
     "static/media/Ellipse 1.png": "/Portfolio/static/media/Ellipse 1.4012b5343a94f8cdc6e7.png",
+    "static/media/Ellipse 3.png": "/Portfolio/static/media/Ellipse 3.208f1aa4ef7b74aad64f.png",
     "static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.png": "/Portfolio/static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.428ab3ab12c4689c3e85.png",
     "static/media/GardenPage.png": "/Portfolio/static/media/GardenPage.63120b58fc384dafbd98.png",
+    "static/media/Logo-Contrast-1.png": "/Portfolio/static/media/Logo-Contrast-1.1aa6113ea2078004e453.png",
+    "static/media/Arkto-Campers-Logo@300-1536x322.png": "/Portfolio/static/media/Arkto-Campers-Logo@300-1536x322.91805eba19e6ce9f3e5c.png",
     "static/media/cool-background.svg": "/Portfolio/static/media/cool-background.e90c948d916eb849f3b954c811906821.svg",
     "index.html": "/Portfolio/index.html",
-    "main.39a1999f.css.map": "/Portfolio/static/css/main.39a1999f.css.map",
-    "main.6e124897.js.map": "/Portfolio/static/js/main.6e124897.js.map"
+    "main.0e49bb9e.css.map": "/Portfolio/static/css/main.0e49bb9e.css.map",
+    "main.1077738c.js.map": "/Portfolio/static/js/main.1077738c.js.map"
   },
   "entrypoints": [
-    "static/css/main.39a1999f.css",
-    "static/js/main.6e124897.js"
+    "static/css/main.0e49bb9e.css",
+    "static/js/main.1077738c.js"
   ]
 }
