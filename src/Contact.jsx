@@ -2,10 +2,12 @@ import React, { useRef } from 'react';
 import "./css/Contact.css"
 import emailjs from '@emailjs/browser';
 import Clock from './Clock';
+import wave from './assets/cool-background.svg'
+
 
 export default function Contact() {
 
-  const form = useRef(); 
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -43,7 +45,7 @@ export default function Contact() {
               <label for='message'>your Message</label>
             </div>
             <div className='submit'>
-            <button type="submit" value="Send">SUBMIT</button>
+              <button type="submit" value="Send">SUBMIT</button>
             </div>
           </form>
         </div>
@@ -51,26 +53,28 @@ export default function Contact() {
           <div className='details'>
             <div className='headers'>contact details</div>
             <a href='mailto:mathewsteenwinkel@gmail.com'>
-              <div className='body'>mathewsteenwinkel@gmail.com</div>
+              <div className='body1'>mathewsteenwinkel@gmail.com</div>
             </a>
           </div>
           <div className='details'>
             <div className='headers'>where to find me online</div>
             <a href='https://www.linkedin.com/in/mathew-steenwinkel/' target='blank'>
-              <div className='body'>linkedin</div>
+              <div className='body1'>linkedin</div>
             </a>
             <a href='https://github.com/mathewsteenwinkel' target='blank'>
-              <div className='body'>github</div>
+              <div className='body1'>github</div>
             </a>
           </div>
           <div className='details'>
             <div className='headers'>location</div>
-            <div className='body'>canmore, AB, Canada</div>
+            <div className='location'>Calgary, AB, Canada</div>
             <Clock />
           </div>
         </div>
       </div>
-
+      <div className='background_img'>
+        <img src={wave} alt='wave' className='wave' />
+      </div>
     </>
   );
 }

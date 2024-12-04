@@ -44,6 +44,8 @@ const Toolbox = () => {
           <p>css</p>
           <p>react js</p>
           <p>sass</p>
+          <p>wordpress</p>
+          <p>gsap</p>
         </div>
       </div>
       <div className='list'>
@@ -56,6 +58,19 @@ const Toolbox = () => {
           <p>node js</p>
           <p>psql</p>
           <p>git</p>
+        </div>
+      </div>
+
+      <div className='list'>
+        <h2 className='end'>
+          Extras
+        </h2>
+        <div className='language2' >
+          <p>Figma</p>
+          <p> Scrum</p>
+          <p>Notion</p>
+          <p>ClickUp</p>
+          <p>Excel</p>
         </div>
       </div>
 

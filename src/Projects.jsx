@@ -7,39 +7,39 @@ const Projects = () => {
   return (
     <div className='container'>
       <div className='projects'>
-        <h1>Projects</h1>
-        <div className='petals'>
-          <img src={petals} className='img' alt-text="petals"/>
-          <a href='https://github.com/mathewsteenwinkel/petal-profits' target='blank'>
-          <div className='text2'>
-            <div className='titles'>
-              <a className='proj_name'>petal profits</a>
-              <div className='proj'>final project</div>
+        <h1 className='title_proj'>Projects</h1>
+        <div className='container'>
+          <a href='https://github.com/mathewsteenwinkel/petal-profits' target='blank' className='contents'>
+            <img src={petals} className='img' alt-text="petals" />
+            <div className='text2'>
+              <div className='titles'>
+                <a className='proj_name'>petal profits</a>
+                <div className='proj'>final project</div>
+              </div>
+              <div className='info2'>
+                <div className='year'>2023</div>
+                <div className='stack'>PERN</div>
+                <div className='stack2'>Full Stack</div>
+              </div>
             </div>
-            <div className='info2'>
-              <div className='year'>2023</div>
-              <div className='stack'>PERN</div>
-              <div className='stack2'>Full Stack</div>
-            </div>
-          </div>
           </a>
         </div>
-        
-        <div className='petals'>
-          <a href='https://github.com/mathewsteenwinkel/Scheduler' target='blank'>
-          <div className='text3'>
-            <div className='titles'>
-              <a className='proj_name'>scheduler</a>
-              <div className='proj'>react project</div>
+
+        <div className='container'>
+          <a href='https://github.com/mathewsteenwinkel/Scheduler' target='blank' className='contents'>
+            <div className='text3'>
+              <div className='titles'>
+                <a className='proj_name'>scheduler</a>
+                <div className='proj'>react project</div>
+              </div>
+              <div className='info2'>
+                <div className='year'>2023</div>
+                <div className='stack'>react</div>
+                <div className='stack2'>front end</div>
+              </div>
             </div>
-            <div className='info2'>
-              <div className='year'>2023</div>
-              <div className='stack'>react</div>
-              <div className='stack2'>front end</div>
-            </div>
-          </div>
+            <img src={interview} className='img' />
           </a>
-          <img src= {interview} className='img' />
         </div>
       </div>
     </div >

@@ -16,8 +16,9 @@ const Navbar = () => {
       <div className='nav__bar'>
 
         <Link className='nav' to="about_me" spy={true} smooth={true} duration={0}> about</Link>
-        <Link className='nav' to="projects" spy={true} smooth={true} duration={0}> projects</Link>
         <Link className='nav' to="technology" spy={true} smooth={true} duration={0}> Technology</Link>
+        <Link className='nav' to="projects" spy={true} smooth={true} duration={0}> projects</Link>
+        <Link className='nav' to="contact" spy={true} smooth={true} duration={0}> Hire Now</Link>
       
       </div>
   

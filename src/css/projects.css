@@ -1,8 +1,3 @@
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 .projects {
   color: #E1DAD2;
   font-family: Roboto;
@@ -12,12 +7,20 @@
   line-height: 120px;
   letter-spacing: -2px;
   text-transform: uppercase;
+
 }
 
-.petals {
+.title_proj{
   display: flex;
-  margin-top: 10px;
+  justify-content: center;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
 }
 
 .img {
@@ -25,14 +28,12 @@
   width: 100%;
   height: 345px;
   border-radius: 10px;
-
-
 }
 
 .img:hover {
   object-fit: contain;
   width: max-content;
-  transform: scale(2.0);
+  transform: scale(1.25);
   transition-duration: 2s;
   border-radius: 0;
   filter: drop-shadow(5px 5px 2px #323131ac);
@@ -134,10 +135,11 @@
     align-items: center;
   }
   
+
   .projects {
     color: #E1DAD2;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 120px;
@@ -156,14 +158,24 @@
   }
   
   .img {
-    width: 90%;
-    height: 345px;
+    width: 40%;
+    height: 135px;
     border-radius: 10px;  
+  }
+  
+  .img:hover {
+    object-fit: contain;
+    width: max-content;
+
+    transition-duration: 2s;
+    border-radius: 0;
+    filter: drop-shadow(5px 5px 2px #323131ac);
+   
   }
 
   .text2 {
-    width: 372px;
-    height: 125px;
+    width: 50%;
+    height: 135px;
     color: #FFF;
     font-family: Outfit;
     font-size: 35px;
@@ -175,7 +187,7 @@
     border-radius: 10px;
     background: #194A50;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -186,7 +198,7 @@
   .info2 {
     color: #FFF;
     font-family: Outfit;
-    font-size: 20px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -203,7 +215,7 @@
     border: 1px solid #D37556;
     margin-right: 10px;
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 4px;
     width: fit-content;
   }
   
@@ -213,7 +225,8 @@
     background: rgba(217, 217, 217, 0.00);
     margin-right: 10px;
     width: fit-content;
-
+    padding-left: 2px;
+    padding-right: 4px;
   }
   
   .stack2 {
@@ -221,24 +234,27 @@
     border: 1px solid #D37556;
     background: rgba(217, 217, 217, 0.00);
     width: fit-content;
+     padding-left: 2px;
+    padding-right: 4px;
 
   }
   
   .proj {
-    font-size: 19px;
+    font-size: 12px;
   }
   
   .titles {
     margin-top: 15px;
     margin-left: 15px;
+    font-size: 16px;
   }
   
   .text3 {
-    width: 372px;
-    height: 125px;
+    width: 50%;
+    height: 135px;
     color: #FFF;
     font-family: Outfit;
-    font-size: 35px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;

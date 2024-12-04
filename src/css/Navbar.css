@@ -1,5 +1,11 @@
-html{
-  scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -7,16 +13,20 @@ html{
   height: 22.308px;
 }
 
-.logo_container{
-display: flex;
-align-items: center;
+.logo_container {
+  display: flex;
+  align-items: center;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   z-index: 5;
-  background-color: none;
+  background-color: rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(100px);
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .nav__bar {
@@ -42,12 +52,14 @@ align-items: center;
   text-transform: uppercase;
   z-index: 5;
   background-color: none;
+  transition-duration: 4ms;
+  transition-timing-function: ease-in-out;
 }
 
-.nav:hover{
+.nav:hover {
   color: white;
-  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 
@@ -59,15 +71,16 @@ a {
 
 @media only screen and (max-width: 414px) {
   .logo {
-    width: 100%;
-    height: 12px;
+    width: 80%;
+    height: 10px;
+    margin-top: 30px;
   }
 
-  .logo_container{
+  .logo_container {
     display: flex;
     align-items: center;
-    width:100px
-    }
+    width: 100px
+  }
 
 
   .navbar {
@@ -88,13 +101,13 @@ a {
   }
 
   .nav {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
     height: 30px;
     color: rgba(225, 218, 210, 1);
     text-align: center;
     font-family: Outfit;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;

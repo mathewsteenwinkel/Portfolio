@@ -1,0 +1,80 @@
+.PastEx{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.PastTitle{
+  font-size: 60px;
+}
+
+.brands{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands :hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+
+}
+
+
+.brand{
+  height: 100px;
+  width: 200px;
+  margin: 50px;
+
+}
+.brand2{
+  height: 50px;
+  width: 200px;
+  margin: 50px;
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  .PastEx{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .PastTitle{
+    font-size: 30px;
+  }
+  
+  .brands{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .brands :hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+  
+  }
+  
+  
+  .brand{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+  
+  }
+  .brand2{
+    height: 35px;
+    width: 150px;
+    margin: 20px;
+  
+  }
+}

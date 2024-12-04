@@ -13,13 +13,16 @@
   justify-content: center
 }
 
+.contents{
+  display: flex;
+  width: 100%;
+}
 
 .contactForm {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .inputGroup {
@@ -92,6 +95,7 @@ button:hover {
   justify-content: space-evenly;
   width: 90%;
   margin-left: 100px;
+  margin-bottom: 150px;
 
 }
 
@@ -100,7 +104,14 @@ button:hover {
   flex-direction: column;
   width: 500px;
   justify-content: center;
-
+  background: linear-gradient(0deg, rgba(255,255,255,0.20) 0%, rgba(255,255,255,0.30) 100%);
+  box-shadow: 10 10px 32px  rgba(0, 0, 0, 0.47);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 40px;
+  padding-left: 20px;
+  height: 350px;
+  margin-top: 125px;
 }
 
 .title2 {
@@ -139,8 +150,30 @@ button:hover {
   width: 100%;
 }
 
+.body1{
+  color: #FFF;
+}
+
+.body1:hover{
+color: black;}
+
 .details {
   margin-bottom: 25px;
+}
+
+.wave{
+  z-index: -3;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  height: 2480px;
+}
+.background_img{
+  position: absolute;
+  bottom: 1;
+  right:0;
+  opacity: 50%;
+  z-index: -3;
 }
 
 
@@ -151,9 +184,9 @@ button:hover {
     height: 193px;
     color: #E1DAD2;
     font-family: Roboto;
-    font-size: 90px;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 120px;
     letter-spacing: -2.42px;
     text-transform: uppercase;
@@ -249,7 +282,6 @@ button:hover {
     display: flex;
     margin-left: 0px;
     width: 414px;
-
     flex-direction: column;
 
   }
@@ -261,6 +293,7 @@ button:hover {
     flex-direction: column;
     width: 300px;
     justify-content: center;
+    height: 300px;
   }
 
   .title2 {
@@ -277,7 +310,7 @@ button:hover {
   .headers {
     color: #E1DAD2;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: -0.25px;
@@ -288,13 +321,21 @@ button:hover {
     color: #FFF;
     margin-top: 5px;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 20px;
     letter-spacing: -0.2px;
     text-transform: uppercase;
     width: 100%;
+  }
+
+  .wave{
+    z-index: -3;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    height: 1900px;
   }
 
 
