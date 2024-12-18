@@ -14,13 +14,14 @@ font-size: 60px;
 }
 
 .coverletterbody {
-  font-size: 24px; /* Adjust to your desired size */
-  line-height: 1.6; /* Improves readability and prevents overlap */
-  margin: 10px 0; /* Adds space around the paragraph */
-  padding: 0; /* Removes unwanted padding */
-  position: relative; /* Ensures normal flow */
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4; 
+  margin: 10px 0; 
+  padding: 0; 
+  position: relative; 
   width: 60%;
-  color: #eee;
+  color: #ffffff;
 }
 
 
@@ -47,7 +48,7 @@ font-size: 60px;
      padding: 0; /* Removes unwanted padding */
      position: relative; /* Ensures normal flow */
      width: 60%;
-     color: #eee;
+     color: #ffffff;
    }
    
 

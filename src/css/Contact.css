@@ -1,7 +1,7 @@
 .contact_title {
   width: 1091px;
   height: 193px;
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 242px;
   font-style: normal;
@@ -26,7 +26,7 @@
 }
 
 .inputGroup {
-  color: #E1DAD2;
+  color: #ffffff;
   margin-bottom: 30px;
   position: relative;
   width: 500px;
@@ -38,7 +38,7 @@ textarea {
   padding: 10px;
   outline: none;
   border: 1px solid #E1DAD2;
-  color: #E1DAD2;
+  color: #ffffff;
   background: transparent;
   font-size: 20px;
   font-family: Roboto;
@@ -58,7 +58,7 @@ label {
   left: 0;
   top: 0;
   padding: 10px;
-  color: #E1DAD2;
+  color: #ffffff;
   cursor: pointer;
   transition: 0.2s;
   font-family: Roboto;
@@ -67,10 +67,10 @@ label {
 button {
   width: 105%;
   padding: 10px 0px;
-  color: #E1DAD2;
+  color: #ffffff;
   outline: none;
   background: transparent;
-  border: 1px solid #E1DAD2;
+  border: 1px solid #ffffff;
   cursor: pointer;
   font-family: Roboto;
 }
@@ -115,7 +115,7 @@ button:hover {
 }
 
 .title2 {
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: Outfit;
   font-size: 50px;
   font-style: normal;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 .headers {
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 25px;
   font-style: normal;
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .body {
-  color: #FFF;
+  color: #ffffff;
   margin-top: 5px;
   font-family: Roboto;
   font-size: 20px;
@@ -166,7 +166,7 @@ color: black;}
   position: absolute;
   bottom: 0;
   right:0;
-  height: 2480px;
+  height: 2380px;
 }
 .background_img{
   position: absolute;
@@ -182,7 +182,7 @@ color: black;}
   .contact_title {
     width: 414px;
     height: 193px;
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 60px;
     font-style: normal;
@@ -204,7 +204,7 @@ color: black;}
   }
 
   .inputGroup {
-    color: #E1DAD2;
+    color: #ffffff;
     margin-bottom: 30px;
     width: 414px;
     display: flex;
@@ -217,8 +217,8 @@ color: black;}
     width: 80%;
     padding: 5px;
     outline: none;
-    border: 1px solid #E1DAD2;
-    color: #E1DAD2;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     background: transparent;
     font-size: 20px;
     font-family: Roboto;
@@ -237,7 +237,7 @@ color: black;}
     position: absolute;
     left: 0;
     top: 0;
-    color: #E1DAD2;
+    color: #ffffff;
     cursor: pointer;
     transition: 0.2s;
     font-family: Roboto;
@@ -255,17 +255,17 @@ color: black;}
   button {
     width: 80%;
     padding: 10px 0px;
-    color: #E1DAD2;
+    color: #ffffff;
     outline: none;
     background: transparent;
-    border: 1px solid #E1DAD2;
+    border: 1px solid #ffffff;
     cursor: pointer;
     font-family: Roboto;
   }
 
   button:hover {
     color: black;
-    background-color: #E1DAD2;
+    background-color: #ffffff;
   }
 
   .row {
@@ -297,7 +297,7 @@ color: black;}
   }
 
   .title2 {
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: Outfit;
     font-size: 30px;
     font-style: normal;
@@ -308,7 +308,7 @@ color: black;}
   }
 
   .headers {
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -318,7 +318,7 @@ color: black;}
   }
 
   .body {
-    color: #FFF;
+    color: #ffffff;
     margin-top: 5px;
     font-family: Roboto;
     font-size: 14px;
@@ -335,7 +335,7 @@ color: black;}
     position: absolute;
     bottom: 0;
     right:0;
-    height: 1900px;
+    height: 1800px;
   }
 
 

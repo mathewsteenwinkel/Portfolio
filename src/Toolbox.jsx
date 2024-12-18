@@ -39,13 +39,14 @@ const Toolbox = () => {
           frontend
         </h2>
         <div className='language1' >
-          <p>javascript</p>
-          <p>html</p>
-          <p>css</p>
-          <p>react js</p>
-          <p>sass</p>
-          <p>wordpress</p>
-          <p>gsap</p>
+          <p className='item'>javascript</p>
+          <p className='item'>html</p>
+          <p className='item'>css</p>
+          <p className='item'>react js</p>
+          <p className='item'>sass</p>
+          <p className='item'>wordpress</p>
+          <p className='item'>gsap</p>
+          <p className='item'>Vue</p>
         </div>
       </div>
       <div className='list'>
@@ -53,11 +54,11 @@ const Toolbox = () => {
           backend
         </h2>
         <div className='language2' >
-          <p>express</p>
-          <p>ruby on rails</p>
-          <p>node js</p>
-          <p>psql</p>
-          <p>git</p>
+          <p className='item'>express</p>
+          <p className='item'>ruby on rails</p>
+          <p className='item'>node js</p>
+          <p className='item'>psql</p>
+          <p className='item'>git</p>
         </div>
       </div>
 
@@ -66,11 +67,11 @@ const Toolbox = () => {
           Extras
         </h2>
         <div className='language2' >
-          <p>Figma</p>
-          <p> Scrum</p>
-          <p>Notion</p>
-          <p>ClickUp</p>
-          <p>Excel</p>
+          <p className='item'>Figma</p>
+          <p className='item'> Scrum</p>
+          <p className='item'>Notion</p>
+          <p className='item'>ClickUp</p>
+          <p className='item'>Excel</p>
         </div>
       </div>
 

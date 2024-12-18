@@ -19,7 +19,7 @@ const About = () => {
           <img src={me} className='photo' />
           <div>
             <p className='body_text'>
-              I am a front-end web developer, based in Calgary, AB.
+              I am a web developer, based in Calgary, AB.
               I am passionate about developing visually striking websites and  creating an impact.<br /><br />
               when i'm not coding, I enjoy rock climbing, reading and playing video games.<br /><br />
               I have a degree in business management and a web development diploma from light house labs.

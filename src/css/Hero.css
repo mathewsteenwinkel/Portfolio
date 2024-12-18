@@ -7,22 +7,23 @@
 
 
 .name{
-  color: #E1DAD2;
+  color: #ffffff;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Roboto;
-  font-size: 125px;
+  font-size: 140px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 9.6px;
   text-transform: uppercase;
-  z-index: 5;
+  z-index: 1;
   margin: 0;
   animation: slideUp 2s cubic-bezier(0.65, 0, 0.35, 1);
   animation-fill-mode: forwards;
- 
 }
+
+
 @keyframes slideUp {
   0% {transform: translateY(0);opacity:0;}
   100% {transform: translateY(-250px);opacity:1;}
@@ -33,18 +34,18 @@
 text-align: center;
 
 font-family: Roboto;
-font-size: 125px;
+font-size: 63px;
 font-style: normal;
-font-weight: 400;
+font-weight: 900;
 line-height: normal;
 letter-spacing: 9.6px;
 text-transform: uppercase;
 z-index: 1;
 margin: 0;
 -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
--webkit-text-stroke-width: 5px;
--webkit-text-stroke-color:#E1DAD2;
-animation: slideUp 2s cubic-bezier(0.65, 0, 0.35, 1);
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color:#ffffff;
+animation: slideUp 3s cubic-bezier(0.65, 0, 0.35, 1);
 animation-fill-mode: forwards;
 
 }
@@ -59,7 +60,7 @@ animation-fill-mode: forwards;
   
   
   .name{
-    color: #E1DAD2;
+    color: #ffffff;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
@@ -94,7 +95,7 @@ animation-fill-mode: forwards;
   margin: 0;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:#E1DAD2;
+  -webkit-text-stroke-color:#ffffff;
   animation: slideUp 2s cubic-bezier(0.65, 0, 0.35, 1);
   animation-fill-mode: forwards;
   

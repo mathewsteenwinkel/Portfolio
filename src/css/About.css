@@ -1,12 +1,16 @@
 .about_me {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
+.about{
+  font-size: 80px;
+  color: #ffffff;
+}
 
 .title {
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: 'Cousine', monospace;
-  font-size: 121px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -40,13 +44,12 @@
   width: 515px;
   height: 687px;
   flex-shrink: 0;
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: Outfit;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
-  /* 140% */
   letter-spacing: 2.5px;
   text-transform: uppercase;
   padding-left: 25px;
@@ -75,7 +78,7 @@
   }
   
   .title {
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: 'Cousine', monospace;
     font-size: 35px !important;
     font-style: normal;
@@ -110,13 +113,12 @@
     width: 300px;
     height: 300px;
     flex-shrink: 0;
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: Outfit;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    /* 140% */
     letter-spacing: 2.5px;
     text-transform: uppercase;
     padding-left: 25px;

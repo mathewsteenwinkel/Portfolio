@@ -11,6 +11,9 @@ const Footer = () => {
        © 2024 Mathew Steenwinkel
       </div>
       <div>
+        this page was built with React
+      </div>
+      <div>
       <Link className='top' to="nav" spy={true} smooth={true} duration={0}> back to top </Link>
       </div>
     </div>

@@ -22,7 +22,7 @@ h3{
 }
 
 .Faqtitle {
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: 'Cousine', monospace;
   font-size: 121px;
 }
@@ -31,12 +31,12 @@ h3{
 
 
 .FaqBody:hover {
-  background-color: rgba(0, 0, 0, 0.4); /* Optional hover effect */
+  background-color: #003566; /* Optional hover effect */
 }
 
 .answers {
   font-size: 24px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   opacity: 0;
   max-height: 0;
@@ -53,7 +53,7 @@ h3{
 }
 
 .faq-question{
-  color: #E1DAD2;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 414px) {
@@ -81,7 +81,7 @@ h3{
   }
   
   .Faqtitle {
-    color: #E1DAD2;
+    color: #ffffff;
     font-family: 'Cousine', monospace;
     font-size: 80px;
   }
@@ -95,7 +95,7 @@ h3{
   
   .answers {
     font-size: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     opacity: 0;
     max-height: 0;
@@ -112,7 +112,7 @@ h3{
   }
   
   .faq-question{
-    color: #E1DAD2;
+    color: #ffffff;
   }
 
 }

@@ -39,9 +39,9 @@ const RandomTextAnimation = () => {
   }, [intervalId]);
 
   return (
-    <h1 onMouseOver={handleMouseOver} data-value="ABOUT ME">
+    <h3 onMouseOver={handleMouseOver} data-value="ABOUT ME" className='about'>
       About Me
-    </h1>
+    </h3>
   );
 };
 

@@ -14,6 +14,7 @@ import Faq from './Faq';
 import PastEx from './PastEx';
 
  import './css/App.css';
+import Mouse from './Mouse';
 
 // Import your First_game component from the src folder
 // import FirstGame from './First_game'; // Update this import
@@ -23,6 +24,7 @@ const App = () => {
         <div className='middle'>
             <img src={Ellipse} alt='Ellipse' className='ellipse1' />
             <div className='body'>
+                <Mouse/>
                 <Navbar className='body' />
                 <div className='hero_section'>
                     <Hero />

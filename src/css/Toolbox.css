@@ -7,7 +7,7 @@
 
 
 .title{
-color: #E1DAD2;
+color: #ffffff;
 font-family: Roboto;
 font-size: 122px;
 font-style: normal;
@@ -29,10 +29,10 @@ width: 445px;
 }
 
 .language1 :hover{
-  color: white;
+  color: rgb(222, 222, 222);
 }
 .language2 :hover{
-  color: white;
+  color: rgb(222, 222, 222);;
 }
 
 .language2{
@@ -41,11 +41,11 @@ width: 445px;
 margin-left: 60px;
 }
 
-p{
+.item{
   padding: 0px;
-  color: #A8A8A8;
+  color: #ffffff;
   font-family: Roboto;
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 0px;
@@ -55,7 +55,7 @@ p{
 
 
 .end{
-  color:#E1DAD2;
+  color:#ffffff;
 font-family: Roboto;
 font-size: 105.5px;
 font-style: normal;
@@ -88,7 +88,7 @@ text-transform: uppercase;
   }
   
   .title{
-  color: #E1DAD2;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 60px;
   font-style: normal;
@@ -116,7 +116,7 @@ text-transform: uppercase;
   }
   
   
-  p{
+  .item{
     padding: 0px;
     color: #A8A8A8;
     font-family: Roboto;

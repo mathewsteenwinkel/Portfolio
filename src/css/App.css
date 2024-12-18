@@ -1,9 +1,7 @@
 body {
-  background-color: rgba(12, 36, 49, 1);
+  background-color: #000814;
 }
-/* body::-webkit-scrollbar {
-  display: none;
-} */
+
 
 .middle {
   display: flex;
@@ -21,28 +19,29 @@ body {
 
 .ellipse1 {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  height: 817px;
-  width: 703px;
+  top: -20%;
+  right: -20%;
+  height: 100%;
+  width: 50%;
   z-index: -1;
 }
 
 .ellipse2 {
   position: absolute;
-  top: 80%;
-  left: 0px;
-  height: 1047px;
-  width: 569px;
+  top: 30%;
+  left: -10%;
+  height: 100%;
+  width: 50%;
   z-index: -1;
+  opacity: 0.6;
 }
 
 .ellipse3 {
   position: absolute;
-  top: 155%;
-  left: 0px;
+  top: 115%;
+  left: 40%;
   height: 100%;
-  width: 100%;
+  width: 50%;
   opacity: .5;
   z-index: -1;
 }
