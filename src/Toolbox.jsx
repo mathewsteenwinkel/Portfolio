@@ -2,6 +2,7 @@ import './css/Toolbox.css'
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import Tabs from './Tabs';
 
 const Toolbox = () => {
   useEffect(() => {
@@ -75,6 +76,7 @@ const Toolbox = () => {
         </div>
       </div>
 
+      <Tabs/>
     </div>
   )
 }
