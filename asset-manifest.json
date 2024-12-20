@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a31dac2c.css",
+    "main.css": "/Portfolio/static/css/main.26e3b5a4.css",
     "main.js": "/Portfolio/static/js/main.3bad3c25.js",
     "static/media/IMG_0385.jpeg": "/Portfolio/static/media/IMG_0385.671c9bd68e377e789edc.jpeg",
     "static/media/Ellipse 1.png": "/Portfolio/static/media/Ellipse 1.1c2ea4ed25c7af324ba2.png",
@@ -12,11 +12,11 @@
     "static/media/Arkto-Campers-Logo@300-1536x322.png": "/Portfolio/static/media/Arkto-Campers-Logo@300-1536x322.91805eba19e6ce9f3e5c.png",
     "static/media/cool-background.svg": "/Portfolio/static/media/cool-background.e90c948d916eb849f3b954c811906821.svg",
     "index.html": "/Portfolio/index.html",
-    "main.a31dac2c.css.map": "/Portfolio/static/css/main.a31dac2c.css.map",
+    "main.26e3b5a4.css.map": "/Portfolio/static/css/main.26e3b5a4.css.map",
     "main.3bad3c25.js.map": "/Portfolio/static/js/main.3bad3c25.js.map"
   },
   "entrypoints": [
-    "static/css/main.a31dac2c.css",
+    "static/css/main.26e3b5a4.css",
     "static/js/main.3bad3c25.js"
   ]
 }
