@@ -9,7 +9,7 @@ export default function Tabs({ title, tabs }) {
   };
 
   return (
-    <div className="tabview">
+    <div className="tabview" id='skills'>
       {title && <h4 className="title">{title}</h4>}
       <div className="body-content">
         {tabs && tabs.length > 0 ? ( 
