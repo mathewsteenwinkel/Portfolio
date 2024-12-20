@@ -76,7 +76,6 @@ const Toolbox = () => {
         </div>
       </div>
 
-      <Tabs/>
     </div>
   )
 }

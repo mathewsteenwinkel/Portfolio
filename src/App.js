@@ -12,14 +12,32 @@ import Contact from './Contact';
 import CoverLetter from './CoverLetter';
 import Faq from './Faq';
 import PastEx from './PastEx';
-
- import './css/App.css';
 import Mouse from './Mouse';
+import Tabs from './Tabs';
 
-// Import your First_game component from the src folder
-// import FirstGame from './First_game'; // Update this import
+import './css/App.css';
+
+
+
 
 const App = () => {
+
+    const title = 'Skills'
+    const tabs = [
+        {
+        name:"frontend",
+        content: "javascript, HTML, CSS, ReactJS, Sass, Wordpress, GSAP, Vue"
+    },
+    {
+        name:"backend",
+        content: "Express, Ruby on rails, Node JS, PSQL, GIT"
+    },
+    {
+        name:"more skills",
+        content: "Figma, Scrum, Notion, Clickup, Excel"
+    }
+    ]
+
     return (
         <div className='middle'>
             <img src={Ellipse} alt='Ellipse' className='ellipse1' />
@@ -32,6 +50,9 @@ const App = () => {
                 <About />
                 <CoverLetter />
                 <PastEx />
+                <Tabs title={title}
+                tabs={tabs}
+                />
                 <Toolbox />
                 <Faq />
                 <Projects />
