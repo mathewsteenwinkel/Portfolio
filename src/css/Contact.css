@@ -64,7 +64,7 @@ label {
   font-family: Roboto;
 }
 
-button {
+.submit_button {
   width: 105%;
   padding: 10px 0px;
   color: #ffffff;
@@ -75,7 +75,7 @@ button {
   font-family: Roboto;
 }
 
-button:hover {
+.submit_button:hover {
   color: black;
   background-color: #E1DAD2;
 }

@@ -48,8 +48,6 @@ function Faq() {
     }))
   }
 
-
-
   return (
     <div className='FAQs'>
       <h1 className='Faqtitle'>FAQs</h1>

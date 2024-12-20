@@ -5,7 +5,6 @@ import Ellipse from './assets/Ellipse 1.png';
 import Ellipse2 from './assets/Ellipse 2.png';
 import Ellipse3 from './assets/Ellipse 3.png';
 import About from './About';
-import Toolbox from './Toolbox';
 import Projects from './Projects';
 import Footer from './Footer';
 import Contact from './Contact';
@@ -33,7 +32,7 @@ const App = () => {
         content: "Express, Ruby on rails, Node JS, PSQL, GIT"
     },
     {
-        name:"more skills",
+        name:"other",
         content: "Figma, Scrum, Notion, Clickup, Excel"
     }
     ]
@@ -53,7 +52,7 @@ const App = () => {
                 <Tabs title={title}
                 tabs={tabs}
                 />
-                <Toolbox />
+            
                 <Faq />
                 <Projects />
                 <Contact />

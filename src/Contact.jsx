@@ -45,7 +45,7 @@ export default function Contact() {
               <label for='message'>your Message</label>
             </div>
             <div className='submit'>
-              <button type="submit" value="Send">SUBMIT</button>
+              <button type="submit" value="Send" className='submit_button'>SUBMIT</button>
             </div>
           </form>
         </div>
