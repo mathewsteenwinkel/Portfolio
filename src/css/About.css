@@ -76,6 +76,11 @@
   .about_me {
     margin-top: 0px;
   }
+
+  .about{
+    font-size: 40px;
+    color: #ffffff;
+  }
   
   .title {
     color: #ffffff;

@@ -82,5 +82,15 @@ body {
     width: 50%;
     z-index: -1;
   }
+
+  .ellipse3 {
+    position: absolute;
+    top: 115%;
+    left: 40%;
+    height: 50%;
+    width: 50%;
+    opacity: .5;
+    z-index: -1;
+  }
 }
 

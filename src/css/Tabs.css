@@ -44,8 +44,6 @@ button:hover{
 }
 
 
-
-
 .active-tab{
   display: flex;
   align-content: center;
@@ -67,4 +65,57 @@ button:hover{
 
 .content{
   height: 300px;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+  .body-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 414px;
+    }
+
+    .title{
+      font-size: 30px;
+    }
+
+    .tabs{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      font-size: 12px;  
+      border: 0;
+      text-transform:uppercase;
+      width: 100%;
+      padding: 10px;
+      margin: 0px;
+      background-color: transparent;
+      color: white;
+    }
+
+    .active-tab{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      font-size: 12px;  
+      border: 0;
+      text-transform:uppercase;
+      width: 100%;
+      padding: 10px;
+      margin: 0px;
+      border-radius: 20px;
+      background-color: #003566;
+      color: white;
+    }
+
+    .skill{
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.4rem;
+      background-color: rgba(255, 255, 255, 0);
+    }
 }
