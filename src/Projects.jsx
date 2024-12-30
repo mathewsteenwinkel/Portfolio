@@ -27,7 +27,7 @@ const Projects = () => {
                   <div className='stack2'>front end</div>
                 </div>
               </div>
-              <img src={VUEtodo} className='img' />
+              <img src={VUEtodo} className='img_preview' />
             </a>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Projects = () => {
 
         <div className='container'>
           <a href='https://github.com/mathewsteenwinkel/petal-profits' target='blank' className='contents'>
-            <img src={petals} className='img' alt-text="petals" />
+            <img src={petals} className='img_preview' alt-text="petals" />
             <div className='text2'>
               <div className='titles'>
                 <a className='proj_name'>petal profits</a>
@@ -63,7 +63,7 @@ const Projects = () => {
                 <div className='stack2'>front end</div>
               </div>
             </div>
-            <img src={interview} className='img' />
+            <img src={interview} className='img_preview' />
           </a>
         </div>
       </div>

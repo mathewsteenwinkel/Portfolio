@@ -5,7 +5,6 @@ import Ellipse from './assets/Ellipse 1.png';
 import Ellipse2 from './assets/Ellipse 2.png';
 import Ellipse3 from './assets/Ellipse 3.png';
 import About from './About';
-import Projects from './Projects';
 import Footer from './Footer';
 import Contact from './Contact';
 import CoverLetter from './CoverLetter';
@@ -15,6 +14,7 @@ import Mouse from './Mouse';
 import Tabs from './Tabs';
 
 import './css/App.css';
+import Portfolio from './Portfolio';
 
 
 
@@ -54,7 +54,8 @@ const App = () => {
                 />
             
                 <Faq />
-                <Projects />
+                <Portfolio />
+              
                 <Contact />
                 <Footer />
             </div>

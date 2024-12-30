@@ -23,17 +23,16 @@
   
 }
 
-.img {
+.img_preview {
   flex:2;
   width: 100%;
   height: 345px;
   border-radius: 10px;
 }
 
-.img:hover {
+.img_preview:hover {
   object-fit: contain;
-  width: max-content;
-  transform: scale(1.25);
+  transform: scale(1.10);
   transition-duration: 2s;
   border-radius: 0;
   filter: drop-shadow(5px 5px 2px #323131ac);
