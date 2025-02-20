@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Ellipse from './assets/Ellipse 1.png';
@@ -12,56 +14,69 @@ import Faq from './Faq';
 import PastEx from './PastEx';
 import Mouse from './Mouse';
 import Tabs from './Tabs';
+import Portfolio from './Portfolio';
+import CriticalMass from './CriticalMass'; // New import
 
 import './css/App.css';
-import Portfolio from './Portfolio';
-
-
-
 
 const App = () => {
-
-    const title = 'Skills'
+    const title = 'Skills';
     const tabs = [
         {
-        name:"frontend",
-        content: "javascript, HTML, CSS, ReactJS, Sass, Wordpress, GSAP, Vue"
-    },
-    {
-        name:"backend",
-        content: "Express, Ruby on rails, Node JS, PSQL, GIT"
-    },
-    {
-        name:"other",
-        content: "Figma, Scrum, Notion, Clickup, Excel"
-    }
-    ]
+            name: "frontend",
+            content: "javascript, HTML, CSS, ReactJS, Sass, Wordpress, GSAP, Vue"
+        },
+        {
+            name: "backend",
+            content: "Express, Ruby on rails, Node JS, PSQL, GIT"
+        },
+        {
+            name: "other",
+            content: "Figma, Scrum, Notion, Clickup, Excel"
+        }
+    ];
 
     return (
-        <div className='middle'>
-            <img src={Ellipse} alt='Ellipse' className='ellipse1' />
-            <div className='body'>
-                <Mouse/>
-                <Navbar className='body' />
-                <div className='hero_section'>
-                    <Hero />
+        <Router basename="/Portfolio">
+            <div className='middle'>
+                <img src={Ellipse} alt='Ellipse' className='ellipse1' />
+                <div className='body'>
+                    <Mouse />
+                    <Navbar className='body' />
+                    {/* Navigation Links */}
+                    <nav className="p-4 bg-gray-800 text-white">
+                        <ul className="flex space-x-4">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/criticalmass">Critical Mass</Link></li>
+                        </ul>
+                    </nav>
+
+                    <Routes>
+                        {/* Main Portfolio Route */}
+                        <Route path="/" element={
+                            <>
+                                <div className='hero_section'>
+                                    <Hero />
+                                </div>
+                                <About />
+                                <CoverLetter />
+                                <PastEx />
+                                <Tabs title={title} tabs={tabs} />
+                                <Faq />
+                                <Portfolio />
+                                <Contact />
+                                <Footer />
+                            </>
+                        } />
+
+                        {/* Critical Mass Route */}
+                        <Route path="/critical-mass" element={<CriticalMass />} />
+                    </Routes>
                 </div>
-                <About />
-                <CoverLetter />
-                <PastEx />
-                <Tabs title={title}
-                tabs={tabs}
-                />
-            
-                <Faq />
-                <Portfolio />
-              
-                <Contact />
-                <Footer />
+                <img src={Ellipse2} alt='Ellipse2' className='ellipse2' />
+                <img src={Ellipse3} alt='Ellipse3' className='ellipse3' />
             </div>
-            <img src={Ellipse2} alt='Ellipse2' className='ellipse2' />
-            <img src={Ellipse3} alt='Ellipse3' className='ellipse3' />
-        </div>
+        </Router>
     );
 };
 

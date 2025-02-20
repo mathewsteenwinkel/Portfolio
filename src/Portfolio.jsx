@@ -4,16 +4,16 @@ import './css/Portfolio.css'
 import TodoModal from './TodoModal'
 
 function Portfolio() {
-
-  const [openModal, setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
       <div className='projects-body'>
         <h1 className='title_proj'>Projects</h1>
         <div className='projects'>
-          <div className='containter'
-          onClick={()=>setOpenModal(true)}
+          <div
+            className='containter'
+            onClick={() => setOpenModal(true)} // Opens the modal
           >
             <div className='proj_container'>
               <div className='proj_name'>VUE to do</div>
@@ -24,15 +24,13 @@ function Portfolio() {
               <div className='stack'>S: Vue</div>
               <div className='stack2'>S: Front end</div>
             </div>
-            {openModal && <TodoModal  closemodal={setOpenModal}/> }
           </div>
-          <div />
-
+          {openModal && <TodoModal closemodal={setOpenModal} />}
         </div>
       </div>
     </div>
-
-  )
+  );
+  
 }
 
 export default Portfolio
