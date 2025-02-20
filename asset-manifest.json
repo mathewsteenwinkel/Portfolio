@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.320aded9.css",
-    "main.js": "/Portfolio/static/js/main.b0e21812.js",
+    "main.css": "/Portfolio/static/css/main.c0aa6a17.css",
+    "main.js": "/Portfolio/static/js/main.35c5c34e.js",
     "static/media/IMG_0385.jpeg": "/Portfolio/static/media/IMG_0385.671c9bd68e377e789edc.jpeg",
     "static/media/Ellipse 1.png": "/Portfolio/static/media/Ellipse 1.1c2ea4ed25c7af324ba2.png",
     "static/media/Ellipse 3.png": "/Portfolio/static/media/Ellipse 3.9c63f313d7201c7b184f.png",
     "static/media/Ellipse 2.png": "/Portfolio/static/media/Ellipse 2.b5b070e90405cacb4bee.png",
-    "static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.png": "/Portfolio/static/media/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.428ab3ab12c4689c3e85.png",
-    "static/media/GardenPage.png": "/Portfolio/static/media/GardenPage.63120b58fc384dafbd98.png",
+    "static/media/VUE TODO app preview.png": "/Portfolio/static/media/VUE TODO app preview.1dbb906b06619eaa46aa.png",
     "static/media/Logo-Contrast-1.png": "/Portfolio/static/media/Logo-Contrast-1.1aa6113ea2078004e453.png",
     "static/media/Arkto-Campers-Logo@300-1536x322.png": "/Portfolio/static/media/Arkto-Campers-Logo@300-1536x322.91805eba19e6ce9f3e5c.png",
     "static/media/cool-background.svg": "/Portfolio/static/media/cool-background.e90c948d916eb849f3b954c811906821.svg",
     "index.html": "/Portfolio/index.html",
-    "main.320aded9.css.map": "/Portfolio/static/css/main.320aded9.css.map",
-    "main.b0e21812.js.map": "/Portfolio/static/js/main.b0e21812.js.map"
+    "main.c0aa6a17.css.map": "/Portfolio/static/css/main.c0aa6a17.css.map",
+    "main.35c5c34e.js.map": "/Portfolio/static/js/main.35c5c34e.js.map"
   },
   "entrypoints": [
-    "static/css/main.320aded9.css",
-    "static/js/main.b0e21812.js"
+    "static/css/main.c0aa6a17.css",
+    "static/js/main.35c5c34e.js"
   ]
 }
