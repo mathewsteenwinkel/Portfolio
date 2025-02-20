@@ -1,0 +1,3 @@
+[submodule "CriticalMass"]
+	path = CriticalMass
+	url = https://github.com/mathewsteenwinkel/CriticalMass.git
